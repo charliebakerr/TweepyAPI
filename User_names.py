@@ -1,0 +1,2 @@
+#Users for Sentiment Analysis
+user               = "Charl3s", "UniHax0r", "arjunblj", "pet3rpan_", "DegenSpartan", "devops199fan", "hedgedhog7", "evabeylin", "loomdart", "scupytrooples", "Fjvdb7", "CL207", "Beetcoin", "TheCryptoDog", "Arthur_0x", "FrankResearcher", "tomhschmidt", "scott_lew_is", "tarunchitra", "econoar", "gpl_94", "n2ckchong", "QwQiao", "kyled116", "zhusu","gmoneyNFT","seedphrase", "Jonwu_","Joeykrug", "DCLBlogger"

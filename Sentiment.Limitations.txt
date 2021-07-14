@@ -1,0 +1,20 @@
+Limitations 
+Twitter API requests limited to 900 / 15mins
+Enterprise API acc allows more and also allows engagement metrics such as impressions and replies
+Tweepy limits scraping to 18000 data points per 15 mins
+
+Sentiment Algo
+Scaled on follower count, this doesnot however account for fake followers, can create bot to validate real followers.
+Unable to pull correct reply metrics without enterpirse api access, this has reulted in inaccurate algo based on likes and rt's only
+
+Unit testing
+If more time, would unit test the algo and also look at including some NLP using textBlob and look at polarity and subjectivity and review insights recieved from these.
+
+df.query
+I use df.query, this calls on the API through the df, it is possible to make twitter do the work for you using the since_id in the api.user_timeline, this is however cumbersome and slow and not as clean as calling on 86400 time since
+
+Create algo to backtest tokens mentioned and test token price performance vs past high impact tweets and understand dynamics of movement.
+
+Algo to predict impressions/view data:
+Look at rate of change of sentiment rather than sentiment alone, to predict high sentiment tweets.
+New impact metric to get rate of change of rate of change of sentiment, this will give indication of alpha and potential opportunites, - alpha will dilute by more viewers/ engagement, could pair with an emergence score or something similar
